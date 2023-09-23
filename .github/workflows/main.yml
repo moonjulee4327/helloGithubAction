@@ -2,7 +2,7 @@ name: helloGithubAction
 
 on: [push]
 
-job:
+jobs:
   build:
     runs-on: window
     step:
