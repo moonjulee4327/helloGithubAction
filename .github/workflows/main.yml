@@ -4,11 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: centos
+    runs-on: ubuntu-latest
     steps:
     - name: hello world!
       run: echo Hello world!
-    - name: 디렉토리 출력!
-      run: ls -al
-    - name: java 버전 출력!
-      run: javac --version
