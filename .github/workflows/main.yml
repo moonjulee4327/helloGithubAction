@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: window
-    step:
+    steps:
     - name: hello world!
       run: echo Hello world!
     - name: 디렉토리 출력!
